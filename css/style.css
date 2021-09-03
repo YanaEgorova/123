@@ -1,0 +1,13 @@
+@import './libs/aos.css';
+@import './utils/fonts.css';
+@import './utils/vars.css';
+@import './utils/utils.css';
+@import './utils/header.css';
+@import './utils/footer.css';
+@import './hero.css';
+@import './about.css';
+@import './info.css';
+@import './text-section.css';
+@import './contact.css';
+@import './buy.css';
+@import './ingredients.css';

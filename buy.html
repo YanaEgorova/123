@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>(site_name)</title>
+</head>
+
+<body>
+
+    <div class="header__wrapper buy__header-wrapper">
+        <header class="header">
+            <a href="./index.html" class="logo">(site_name)</a>
+            <button class="menu__btn js_menu__btn">
+                <span></span>
+            </button>
+            <div class="menu js_menu">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="./index.html" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./ingredients.html" class="nav__link">Ingredients</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./contact.html" class="nav__link">Contact us</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="./terms.html" class="nav__link">Terms & Conditions</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./policy.html" class="nav__link">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+    </div>
+    <main class="main">
+        <div class="container">
+        
+                <section class="buy">
+                    <h1 class="sub-title">Supplements for Muscle Growths <br> with Apple Cider Vinegar</h1>
+                    <div class="buy__flex">
+                        <img src="./img/img1.png" class="buy__img" />
+                        <div class="buy__text-block">
+                            <h2 class="buy__title"><span style="display: inline-block" class="js_price">$19.99 - $119.00</span></h2>
+                            <div id="quantity" class="quantity">
+                                <label class="quantity_label">Quantity:
+                                    <div class="quantity_label-box">
+                                        <div class="quantity_label-btn quantity_label-prev js_quantity_prev">
+                                            <svg class="buy__icon" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                                xml:space="preserve">
+                                                <g>
+                                                    <g>
+                                                        <path
+                                                            d="M492,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,236,492,236z" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <input type="number" min="0" size="3" maxlength="3"
+                                            class="quantity__input js_quantity" value="0" data-line-id="1" max="10">
+                                        <div class="quantity_label-btn quantity_label-next js_quantity_next">
+                                            <svg class="buy__icon" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                                viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                                xml:space="preserve">
+                                                <g>
+                                                    <g>
+                                                        <path
+                                                            d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
+                                                            v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="error-message js_error-message">Buy More and Save! Limited to 12 Only</p>
+                    <div class="main-form__wrapper">
+                        <div class="form__wrapper ">
+                            <div class="form">
+                                <h3 class="form__title">Free Shipping To USA!</h3>
+    
+                                <div>
+                                    <h3 class="form__subtitle">Additional goods</h3>
+                                    <div class="case-block">
+                                        <div class="checkbox__label-wrap">
+                                            <div>
+                                                <input class="checkbox js_additional" type="checkbox"
+                                                    id="additional__checkbox" />
+                                                <label class="checkbox__label" for="additional__checkbox"><span
+                                                        class="bold">Silicone case</span></label>
+                                            </div>
+                                            <div class="label-block">
+                                                <span class="bold">$5.95</span>
+                                            </div>
+                                        </div>
+                                        <img src="./img/travel-pack.png" alt="silicone case" class="silicone_case_img" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                        <form class="order-form" id="order_form">
+                            <h3 class="form__subtitle">Billing Details</h3>
+                            <div class="fl-form">
+                                <div class="form_group-flex">
+                                    <div class="form-group_block">
+                                        <div class="form-group">
+                                            <label>
+                                                <span>First Name:<sup>*</sup></span>
+                                                <input type="text" class="form-control" name="firstName"
+                                                    placeholder="First Name" value="">
+                                            </label>
+                                        </div>
+    
+                                        <div class="form-group">
+                                            <label>
+                                                <span>Last Name:<sup>*</sup></span>
+                                                <input type="text" class="form-control" name="lastName"
+                                                    placeholder="Last Name" value="">
+                                            </label>
+                                        </div>
+    
+    
+                                        <div class="form-group">
+                                            <label><span>Street Address:<sup>*</sup></span>
+                                                <input type="text" class="form-control" name="shippingAddress1"
+                                                    placeholder="Street Address" value="">
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label><span>Town/City:<sup>*</sup></span>
+                                                <input type="text" class="form-control" name="shippingCity"
+                                                    placeholder="Town/City" value="">
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label><span>Country:<sup>*</sup></span>
+                                                <input type="text" class="form-control" name="shippingCountry"
+                                                    placeholder="Country" value="US" readonly>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group_block">
+                                        <div class="form-group">
+                                            <label><span>State:<sup>*</sup></span></label>
+    
+                                            <select name="shippingState" id="shipping_state" class="form-control "
+                                                autocomplete="address-level1" data-placeholder="State / Province"
+                                                data-input-classes="" placeholder="State / Province" tabindex="-1"
+                                                aria-hidden="true">
+                                                <option value="AL">Alabama</option>
+                                                <option value="AK">Alaska</option>
+                                                <option value="AZ">Arizona</option>
+                                                <option value="AR">Arkansas</option>
+                                                <option value="CA">California</option>
+                                                <option value="CO">Colorado</option>
+                                                <option value="CT">Connecticut</option>
+                                                <option value="DE">Delaware</option>
+                                                <option value="DC">District Of Columbia</option>
+                                                <option value="FL">Florida</option>
+                                                <option value="GA">Georgia</option>
+                                                <option value="HI">Hawaii</option>
+                                                <option value="ID">Idaho</option>
+                                                <option value="IL">Illinois</option>
+                                                <option value="IN">Indiana</option>
+                                                <option value="IA">Iowa</option>
+                                                <option value="KS">Kansas</option>
+                                                <option value="KY">Kentucky</option>
+                                                <option value="LA">Louisiana</option>
+                                                <option value="ME">Maine</option>
+                                                <option value="MD">Maryland</option>
+                                                <option value="MA">Massachusetts</option>
+                                                <option value="MI">Michigan</option>
+                                                <option value="MN">Minnesota</option>
+                                                <option value="MS">Mississippi</option>
+                                                <option value="MO">Missouri</option>
+                                                <option value="MT">Montana</option>
+                                                <option value="NE">Nebraska</option>
+                                                <option value="NV">Nevada</option>
+                                                <option value="NH">New Hampshire</option>
+                                                <option value="NJ">New Jersey</option>
+                                                <option value="NM">New Mexico</option>
+                                                <option value="NY">New York</option>
+                                                <option value="NC">North Carolina</option>
+                                                <option value="ND">North Dakota</option>
+                                                <option value="OH">Ohio</option>
+                                                <option value="OK">Oklahoma</option>
+                                                <option value="OR">Oregon</option>
+                                                <option value="PA">Pennsylvania</option>
+                                                <option value="RI">Rhode Island</option>
+                                                <option value="SC">South Carolina</option>
+                                                <option value="SD">South Dakota</option>
+                                                <option value="TN">Tennessee</option>
+                                                <option value="TX">Texas</option>
+                                                <option value="UT">Utah</option>
+                                                <option value="VT">Vermont</option>
+                                                <option value="VA">Virginia</option>
+                                                <option value="WA">Washington</option>
+                                                <option value="WV">West Virginia</option>
+                                                <option value="WI">Wisconsin</option>
+                                                <option value="WY">Wyoming</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label><span>ZIP:<sup>*</sup></span>
+                                                <input type="text" class="form-control" name="shippingZip"
+                                                    placeholder="Zip Code" maxlength="5"
+                                                    onkeyup="javascript:this.value=this.value.replace(/[^0-9]/g,'');"
+                                                    value="">
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label><span>Phone:<sup>*</sup></span>
+                                                <input type="tel" class="form-control" name="phone"
+                                                    placeholder="Phone Number" data-min-length="10" data-max-length="15"
+                                                    onkeyup="javascript:this.value=this.value.replace(/[^0-9]/g,'');"
+                                                    maxlength="10" value="">
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label><span>Email Address:<sup>*</sup></span>
+                                                <input type="email" class="form-control" name="email"
+                                                    placeholder="Email Address" value="">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="payment">
+                                    <div class="payment-header">
+                                        <label>
+    
+                                            <span for="radio1"></span>
+                                            <span class="form__subtitle">Payment Details</span>
+                                        </label>
+                                        <div class="img">
+                                            <img src="./img/mastercard.png"> <img src="./img/discover.png"> <img
+                                                src="./img/visa.png">
+                                        </div>
+                                    </div>
+                                    <div class="payment-form">
+                                        <div class="form-group_block">
+                                            <div class="form-group">
+                                                <input type="tel" class="form-control" name="cc_no" maxlength="16"
+                                                    onkeyup="javascript:this.value=this.value.replace(/[^0-9]/g,'');"
+                                                    value="" placeholder="Card No">
+                                            </div>
+    
+                                            <div class="form-group">
+                                                <select class="form-control" name="cc_month" maxlength="2"
+                                                    placeholder="Month(MM)">
+                                                    <option value="" selected="selected">Month(MM)</option>
+                                                    <option value=1>01</option>
+                                                    <option value=2>02</option>
+                                                    <option value=3>03</option>
+                                                    <option value=4>04</option>
+                                                    <option value=5>05</option>
+                                                    <option value=6>06</option>
+                                                    <option value=7>07</option>
+                                                    <option value=8>08</option>
+                                                    <option value=9>09</option>
+                                                    <option value=10>10</option>
+                                                    <option value=11>11</option>
+                                                    <option value=12>12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group_block">
+                                            <div class="form-group">
+                                                <select class="form-control" name="cc_year" maxlength="4"
+                                                    placeholder="Year(YYYY)">
+                                                    <option value="" selected="selected">Year(YYYY)</option>
+                                                    <option value=2021> 2021 </option>
+                                                    <option value=2022> 2022 </option>
+                                                    <option value=2023> 2023 </option>
+                                                    <option value=2024> 2024 </option>
+                                                    <option value=2025> 2025 </option>
+                                                    <option value=2026> 2026 </option>
+                                                    <option value=2027> 2027 </option>
+                                                    <option value=2028> 2028 </option>
+                                                    <option value=2029> 2029 </option>
+                                                    <option value=2030> 2030 </option>
+                                                    <option value=2031> 2031 </option>
+                                                </select>
+                                            </div>
+    
+                                            <div class="form-group">
+                                                <input type="tel" class="form-control" name="CVV" maxlength="3"
+                                                    onkeyup="javascript:this.value=this.value.replace(/[^0-9]/g,'');"
+                                                    placeholder="CVV" value="">
+                                            </div>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-btn js_form-btn">
+                                <div class="form__title-box js_form__title-box">
+                                    <p class="bold">Item</p>
+                                    <p class="bold">Amount</p>
+                                </div>
+                                <div class="label-block total js_total">
+                                    <span id="chosen" class="bold">
+                                        <span class="js_bottom-quantity"></span>
+                                        <span class="js_bottom-name"></span>
+                                    </span>
+                                    <span id="chosen_price" class="bold">$0.00</span>
+    
+                                </div>
+                                <div id="silicone_case" class="label-block form-pd">
+                                 
+                                        <span class="text text-up">Travel Pack of Muscle Supplements</span>
+                                        <span class="bold">$5.95</span>
+                                 
+                                </div>
+                                <div id="total_block" class="label-block form-pd js_total_1">
+                                   
+                                        <span class="bold"> Total</span>
+                                        <span id="total_1" class="bold">$0.00</span>
+                             
+                                </div>
+                                <br>
+                                <br>
+                                <div class="bottom-bottom-block js_bottom-bottom-block">
+                                    <div id="terms">
+                                        <input type="checkbox" name="terms_text" id="terms_text" class="checkbox">
+                                        <label for="terms_text" class="checkbox__label">
+                                            <div class="rules">
+                                                By placing an order with us, you agree to our full <a class="policy__link"
+                                                    href="./terms.html">Terms And Conditions</a> &
+                                                <a class="policy__link" href="./policy.html">Privacy Policy</a>, which
+                                                explain that you will be
+                                                charged <span id="terms_price">$0.00</span><span id="express_terms"> +
+                                                    $5.95 Travel Pack of Muscle Supplements </span> = <span id="total_2">
+                                                    $0.00 </span><span id="handling">
+                                                    (No
+                                                    Shipping and
+                                                    handling costs)</span>. To cancel your order, please call our
+                                                Customer
+                                                Service toll free number at 844 403 1134 or email us at
+                                                <a href="mailto:(site_email)" class="policy__link">(site_email)</a>
+                                                You will see a charge from
+                                                (site_name)
+                                                on your bank statement. Our Customer Service department reserves the
+                                                right
+                                                to offer promo codes for varied price points.
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <br />
+    
+                                    <button type="submit" id="place_order" class="btn"><span>Place order</span></button>
+                                </div>
+                            </div>
+    
+    
+                        </form>
+                    </div>
+                </section>
+    
+        </div>
+    </main>
+    <div class="footer__wrapper ">
+        <div class="container">
+            <footer class="footer">
+                <ul class="footer__list">
+
+                    <li class="footer__item">
+                        <ul class="footer__sublist">
+                            <li class="footer__subitem">
+                                <h4 class="footer__title">Company</h4>
+                            </li>
+                            <li class="footer__subitem">
+                                <p class="text footer__text">© 2021 All rights reserved</p>
+                            </li>
+                            <li class="footer__subitem">
+                                <p class="text footer__text">(site_name) Media Grp Inc</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer__item">
+                        <ul class="footer__sublist">
+                            <li class="footer__subitem">
+                                <h4 class="footer__title">Contact us</h4>
+                            </li>
+                            <li class="footer__subitem">
+                                <span class="text footer__text footer__icon-box">
+                                    <svg class="footer__icon" viewBox="-119 -21 682 682.66669"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="m216.210938 0c-122.664063 0-222.460938 99.796875-222.460938 222.460938 0 154.175781 222.679688 417.539062 222.679688 417.539062s222.242187-270.945312 222.242187-417.539062c0-122.664063-99.792969-222.460938-222.460937-222.460938zm67.121093 287.597656c-18.507812 18.503906-42.8125 27.757813-67.121093 27.757813-24.304688 0-48.617188-9.253907-67.117188-27.757813-37.011719-37.007812-37.011719-97.226562 0-134.238281 17.921875-17.929687 41.761719-27.804687 67.117188-27.804687 25.355468 0 49.191406 9.878906 67.121093 27.804687 37.011719 37.011719 37.011719 97.230469 0 134.238281zm0 0" />
+                                    </svg>
+                                    6-05 Saddle River Rd. #154, Fair Lawn, NJ 07410, USA</span>
+                            </li>
+                            <li class="footer__subitem">
+                                <a href="tel:844 403 1134" class="text footer__link footer__icon-box">
+                                    <svg class="footer__icon" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="401.998px"
+                                        height="401.998px" viewBox="0 0 401.998 401.998"
+                                        style="enable-background:new 0 0 401.998 401.998;" xml:space="preserve">
+                                        <g>
+                                            <path
+                                                d="M401.129,311.475c-1.137-3.426-8.371-8.473-21.697-15.129c-3.61-2.098-8.754-4.949-15.41-8.566 c-6.662-3.617-12.709-6.95-18.13-9.996c-5.432-3.045-10.521-5.995-15.276-8.846c-0.76-0.571-3.139-2.234-7.136-5 c-4.001-2.758-7.375-4.805-10.14-6.14c-2.759-1.327-5.473-1.995-8.138-1.995c-3.806,0-8.56,2.714-14.268,8.135 c-5.708,5.428-10.944,11.324-15.7,17.706c-4.757,6.379-9.802,12.275-15.126,17.7c-5.332,5.427-9.713,8.138-13.135,8.138 c-1.718,0-3.86-0.479-6.427-1.424c-2.566-0.951-4.518-1.766-5.858-2.423c-1.328-0.671-3.607-1.999-6.845-4.004 c-3.244-1.999-5.048-3.094-5.428-3.285c-26.075-14.469-48.438-31.029-67.093-49.676c-18.649-18.658-35.211-41.019-49.676-67.097 c-0.19-0.381-1.287-2.19-3.284-5.424c-2-3.237-3.333-5.518-3.999-6.854c-0.666-1.331-1.475-3.283-2.425-5.852 s-1.427-4.709-1.427-6.424c0-3.424,2.713-7.804,8.138-13.134c5.424-5.327,11.326-10.373,17.7-15.128 c6.379-4.755,12.275-9.991,17.701-15.699c5.424-5.711,8.136-10.467,8.136-14.273c0-2.663-0.666-5.378-1.997-8.137 c-1.332-2.765-3.378-6.139-6.139-10.138c-2.762-3.997-4.427-6.374-4.999-7.139c-2.852-4.755-5.799-9.846-8.848-15.271 c-3.049-5.424-6.377-11.47-9.995-18.131c-3.615-6.658-6.468-11.799-8.564-15.415C98.986,9.233,93.943,1.997,90.516,0.859 C89.183,0.288,87.183,0,84.521,0c-5.142,0-11.85,0.95-20.129,2.856c-8.282,1.903-14.799,3.899-19.558,5.996 c-9.517,3.995-19.604,15.605-30.264,34.826C4.863,61.566,0.01,79.271,0.01,96.78c0,5.135,0.333,10.131,0.999,14.989 c0.666,4.853,1.856,10.326,3.571,16.418c1.712,6.09,3.093,10.614,4.137,13.56c1.045,2.948,2.996,8.229,5.852,15.845 c2.852,7.614,4.567,12.275,5.138,13.988c6.661,18.654,14.56,35.307,23.695,49.964c15.03,24.362,35.541,49.539,61.521,75.521 c25.981,25.98,51.153,46.49,75.517,61.526c14.655,9.134,31.314,17.032,49.965,23.698c1.714,0.568,6.375,2.279,13.986,5.141 c7.614,2.854,12.897,4.805,15.845,5.852c2.949,1.048,7.474,2.43,13.559,4.145c6.098,1.715,11.566,2.905,16.419,3.576 c4.856,0.657,9.853,0.996,14.989,0.996c17.508,0,35.214-4.856,53.105-14.562c19.219-10.656,30.826-20.745,34.823-30.269 c2.102-4.754,4.093-11.273,5.996-19.555c1.909-8.278,2.857-14.985,2.857-20.126C401.99,314.814,401.703,312.819,401.129,311.475z" />
+                                        </g>
+                                    </svg>
+                                    <span>844 403 1134</span></a>
+                            </li>
+                            <li class="footer__subitem">
+                                <a href="mailto:(site_email)" class="text footer__link footer__icon-box">
+                                    <svg class="footer__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        x="0px" y="0px" viewBox="0 0 477.867 477.867"
+                                        style="enable-background:new 0 0 477.867 477.867;" xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <path
+                                                    d="M460.8,68.267H17.067l221.867,182.75L463.309,68.779C462.488,68.539,461.649,68.368,460.8,68.267z" />
+                                            </g>
+                                        </g>
+                                        <g>
+                                            <g>
+                                                <path
+                                                    d="M249.702,286.31c-6.288,5.149-15.335,5.149-21.623,0L0,98.406v294.127c0,9.426,7.641,17.067,17.067,17.067H460.8 c9.426,0,17.067-7.641,17.067-17.067V100.932L249.702,286.31z" />
+                                            </g>
+                                        </g>
+                                    </svg>
+
+                                    <span>(site_email)</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer__item">
+                        <ul class="footer__sublist">
+                            <li class="footer__subitem">
+                                <h4 class="footer__title">Pages</h4>
+                            </li>
+                            <li class="footer__subitem">
+                                <a href="./contact.html" class="text footer__link"><span>Contact us</span></a>
+                            </li>
+                            <li class="footer__subitem">
+                                <a href="./ingredients.html" class="text footer__link"><span>Ingredients</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="./index.html" class="footer__logo-link">(site_name)</a>
+            </footer>
+
+            <p class="fda-text"><sup>*</sup>This product is not for use by or sale to persons under the age of 18.
+                This product should be used only as directed on the label. It should not be used if you are pregnant
+                or nursing. Consult with a physician before use if you have a serious medical condition or use
+                prescription medications. All trademarks and copyrights are the property of their respective owners
+                and are not affiliated with nor do they endorse this product. These statements have not been
+                evaluated by the FDA. This product is not intended to diagnose, treat, cure or prevent any disease.
+                By using this site, you agree to follow the <a href="./policy.html" class="link">Privacy Policy</a>
+                and all <a href="./terms.html" class="link">Terms & Conditions</a> printed on this site. Void where
+                prohibited by law.</p>
+        </div>
+    </div>
+
+    <script src="./js/quantity.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>

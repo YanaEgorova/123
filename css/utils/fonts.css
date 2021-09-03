@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Black.eot');
+    src: url('../../fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Black.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Black.woff') format('woff'),
+        url('../../fonts/Montserrat-Black.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Black.svg#Montserrat-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('../../fonts/OpenSansCondensed-Light.eot');
+    src: url('../../fonts/OpenSansCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/OpenSansCondensed-Light.woff2') format('woff2'),
+        url('../../fonts/OpenSansCondensed-Light.woff') format('woff'),
+        url('../../fonts/OpenSansCondensed-Light.ttf') format('truetype'),
+        url('../../fonts/OpenSansCondensed-Light.svg#OpenSansCondensed-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

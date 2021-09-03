@@ -1,0 +1,10 @@
+.text-section {
+    padding: 15rem 0;
+}
+.text-section .text {
+    margin-left: 0;
+    max-width: 100%;
+}
+@media screen and (min-width: 1024px) {
+ 
+}

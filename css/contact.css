@@ -1,0 +1,12 @@
+.contact__icon {
+    width: 3rem;
+    height: 3rem;
+    fill: var(--sub-text-color);
+    margin-right: 1rem;
+}
+.contact__text {
+    display: flex;
+}
+.text-section .text {
+  margin-left: 0;
+}

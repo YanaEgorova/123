@@ -39,9 +39,8 @@ option {
     align-items: center;
     justify-content: center;
 }
-.buy__title {
-    margin-bottom: 2rem;
-    text-align: center;
+.buy .sub-title--mb {
+    margin-bottom: 1rem;
 }
 .form__title {
     font-size: 2rem;
@@ -235,7 +234,7 @@ sup {
         margin-left: 0;
         margin-right: 5rem;
     }
-    .buy__title span, .form__title, .error-message {
+    .form__title, .error-message {
         font-size: 4rem;
     }
     .form_group-flex {

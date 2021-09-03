@@ -5,6 +5,9 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
+table:not(:last-child) {
+    margin-bottom: 10rem;
+}
 caption {
     padding: 1rem;
     border: .2rem solid var(--second-brand-color);

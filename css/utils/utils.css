@@ -57,6 +57,13 @@ button:active,
 button:focus {
   outline: none;
 }
+span {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
 .main {
   flex-grow: 1;
   display: flex;

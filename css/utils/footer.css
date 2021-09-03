@@ -66,7 +66,7 @@
     .footer__link {
         position: relative;
     }
-    .footer__link span:after {
+    .footer__link:after {
         display: block;
         position: absolute;
         left: 0;
@@ -81,11 +81,11 @@
         -ms-transition: width 0.3s ease-in-out;
         -o-transition: width 0.3s ease-in-out;
       }
-      .footer__buy-wrapper .footer__link span:after {
+      .footer__buy-wrapper .footer__link:after {
          background-color:var(--main-text-color);
       }
-      .footer__link span:hover:after,
-      .footer__link span:focus:after {
+      .footer__link:hover:after,
+      .footer__link:focus:after {
         width: 100%;
       }
       .footer__list {

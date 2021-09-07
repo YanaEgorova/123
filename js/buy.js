@@ -17,8 +17,8 @@ const quantityInput = document.querySelector('.js_quantity');
 const headphonesPrice = document.getElementById('chosen_price');
 const prevQuantityBtn = document.querySelector('.js_quantity_prev');
 const nextQuantityBtn = document.querySelector('.js_quantity_next');
-
 const bottomQuantity = document.querySelector('.js_bottom-quantity');
+
 const defaultText = topPriceParagraph.textContent;
 
 

@@ -6,6 +6,7 @@ const WEBSITE_EMAIL = 'website email';
 const WEBSITE_ADDRESS = 'website address';
 const WEBSITE_RETURN_ADDRESS = 'website return address';
 const WEBSITE_DESCRIPTOR = 'website desc';
+const WEBSITE_ADDITIONAL_PRODUCT = 'website additional product';
 
 let websiteName = document.querySelectorAll('.js_website-name');
 let websiteUrl = document.querySelectorAll('.js_website-url');
@@ -15,6 +16,7 @@ let websiteEmail = document.querySelectorAll('.js_website-email');
 let websiteAddress = document.querySelectorAll('.js_website-address');
 let websiteReturnAddress = document.querySelectorAll('.js_website-return-address');
 let websiteDescriptor = document.querySelectorAll('.js_website-desc');
+let websiteAdditionalProduct = document.querySelectorAll('.js_website-add');
 
 websiteName = [...websiteName];
 websiteUrl = [...websiteUrl];
@@ -58,6 +60,9 @@ if(!(websiteReturnAddress.length === 0)) {
 
 if(!(websiteDescriptor.length === 0)) {
     setInformation(websiteDescriptor, WEBSITE_DESCRIPTOR);
+}
+if(!(websiteAdditionalProduct.length === 0)) {
+    setInformation(websiteAdditionalProduct, WEBSITE_ADDITIONAL_PRODUCT);
 }
 
 function setInformation(array, info) {

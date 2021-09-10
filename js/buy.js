@@ -1,5 +1,3 @@
-const saveParagraph = document.querySelector('.js_save');
-const originalParagraph = document.querySelector('.js_original');
 const topPriceParagraph = document.querySelector('.js_price');
 const topBlock = document.querySelector('.js_form__title-box');
 const headphonesBlock = document.querySelector('.js_total');
@@ -210,8 +208,6 @@ function setTopTitle(quantity) {
         topPriceParagraph.textContent = quantityLabelOptions(quantity);
     } else if(typeof quantityLabelOptions(quantity) === 'object') {
         const title = quantityLabelOptions(quantity).title;
-        const original = quantityLabelOptions(quantity).original;
-        const save = quantityLabelOptions(quantity).save;
         topPriceParagraph.textContent = title;
     }
 }
@@ -274,7 +270,6 @@ function enterMoreThanThereIs(quantity) {
     if(quantity > amountOfProduct) {
         errorMessage.style.display = 'block';
         topPriceParagraph.textContent = defaultText;
-        saveParagraph.style.display = 'none';
     } else {
         errorMessage.style.display = 'none';
     }
